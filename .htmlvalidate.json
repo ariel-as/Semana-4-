@@ -1,0 +1,5 @@
+{
+  "extends": ["html-validate:recommended"],
+  "elements": ["html5"],
+  "root": true
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simulador de servicio asíncrono para cargar datos de usuario.">
+  <title>Simulador de servicio asíncrono</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card" aria-labelledby="titulo">
+    <h1 id="titulo">Simulador de servicio asíncrono</h1>
+    <p id="instruccion" class="descripcion">Solicita datos simulados y observa el resultado de una operación asíncrona.</p>
+    <button id="btnCargar" type="button" aria-describedby="instruccion">Cargar datos del usuario</button>
+    <p id="resultado" class="resultado" role="status" aria-live="polite" aria-atomic="true" aria-busy="false" data-state="idle">Presiona el botón para empezar.</p>
+    <noscript>
+      <p class="aviso">Necesitas activar JavaScript para utilizar este simulador.</p>
+    </noscript>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
